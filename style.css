@@ -102,3 +102,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.subtitulo-card {
+  font-size: 1.5rem; /* Você pode ajustar o tamanho aqui */
+  font-weight: 600;
+}
