@@ -1,0 +1,104 @@
+:root {
+  --primary-color: #64ffda; /* Cor principal, como botões e links */
+  --secondary-color: #0a192f; /* Cor de fundo, ou de texto */
+  --light-color: #ffffff; /* Cor para textos em fundos escuros */
+  --dark-color: #333333; /* Cor para textos em fundos claros */
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+
+.bg-light { /* Sobrescreve a classe bg-light do Bootstrap */
+  background-color: #f8f9fa !important;
+}
+
+.btn-primary { /* Mude a cor do botão primário */
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover { /* Mude a cor do botão quando o mouse passa por cima */
+  background-color: #55e6c5 !important;
+  border-color: #55e6c5 !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --primary-color: #e94560; /* Ex: rosa para botões e links */
+  --secondary-color: #16213e; /* Ex: azul escuro para o fundo */
+  --accent-color: #0f3460; /* Cor de destaque, como o fundo dos cards */
+  --light-color: #f1f1f1; /* Cor clara para textos */
+  --dark-color: #333333; /* Cor escura para detalhes */
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+
+.card, .jumbotron { /* Estiliza os cards e a seção hero */
+  background-color: var(--accent-color) !important;
+  color: var(--light-color);
+  border: none;
+}
+
+.card-header, .text-muted {
+  color: var(--light-color) !important;
+}
+
+.btn-primary { /* Estiliza o botão principal */
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+  background-color: #c93b51 !important;
+  border-color: #c93b51 !important;
+}
+
+/* Você pode adicionar mais classes aqui, como para a navegação */
+.navbar-brand, .nav-link {
+  color: var(--light-color) !important;
+}
+:root {
+  --primary-color: #e94560; /* Ex: rosa para botões e links */
+  --secondary-color: #16213e; /* Ex: azul escuro para o fundo */
+  --accent-color: #0f3460; /* Cor de destaque, como o fundo dos cards */
+  --light-color: #f1f1f1; /* Cor clara para textos */
+  --dark-color: #333333; /* Cor escura para detalhes */
+}
+
+/* ... Código CSS que já temos ... */
+
+.bg-personalizado { /* Esta é a nova classe para o cabeçalho */
+  background-color: var(--secondary-color) !important;
+}
+
+.text-claro { /* Esta é a nova classe para os links */
+  color: var(--light-color) !important;
+}
+.bg-hero {
+  background-color: var(--secondary-color) !important;
+  color: var(--light-color);
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-image: url('URL_DA_SUA_IMAGEM');
+  background-size: cover;
+  background-attachment: fixed;
+}
