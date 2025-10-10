@@ -1,15 +1,15 @@
-# Portfólio de Desenvolvimento Pessoal - Atividade academica.
+Personal Development Portfolio - Academic Activity
+Project Description
+This is a responsive professional portfolio developed as part of an academic activity. The main goal was to customize an official Bootstrap template and learn how to publish it using GitHub Pages.
 
-## Descrição do Projeto
-Este é um portfólio profissional responsivo desenvolvido como parte de uma atividade acadêmica. O objetivo principal foi customizar um template oficial do Bootstrap e aprender a publicá-lo usando o GitHub Pages.
+Original Template
+The project was built based on the Pricing template from Bootstrap 4.0.
 
-## Template Original
-O projeto foi construído com base no template **Pricing** do Bootstrap 4.0.
+Customizations
+Visual: I changed the color palette to a modern style with dark tones.
 
-## Customizações
-* **Visual:** Alterei a paleta de cores para um estilo moderno com tons escuros.
-* **Conteúdo:** Adaptei o layout original para exibir meus projetos fictícios e informações pessoais, como habilidades e contato.
+Content: I adapted the original layout to display my fictional projects and personal information, such as skills and contact.
 
-## Deploy
-O site está publicado no GitHub Pages e pode ser acessado em:
+Deploy
+The website is published on GitHub Pages and can be accessed at:
 https://luiz-henriquegomes.github.io/Meu-Portf-lio/
